@@ -7,7 +7,7 @@
   </property>
   <property>
     <name>hbase.rootdir</name>
-    <value>/hbase-data</value>
+    <value>hdfs://namenode:9000/hbase</value>
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
